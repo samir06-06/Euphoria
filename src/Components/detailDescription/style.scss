@@ -1,0 +1,161 @@
+.DetailDescription {
+    margin-bottom: 30px;
+
+    .content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+
+        .left {
+            width: 50%;
+
+            .heading {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                gap: 30px;
+
+                .head {
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
+                    padding-bottom: 20px;
+                    font-weight: 600;
+                    color: #807D7E;
+                    font-size: 20px;
+                    gap: 10px;
+                    transition: 200ms linear;
+                    cursor: pointer;
+                    position: relative;
+                    background-color: transparent;
+
+                    .count {
+                        border-radius: 5px;
+                        // padding: 5px;
+                        color: white;
+                        height: 20px;
+                        width: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 12px;
+
+                    }
+
+                    .purple {
+                        background-color: #8A33FD;
+                    }
+
+                    .gray {
+                        background-color: #3C4242;
+                    }
+
+                    &:hover {
+                        color: #8A33FD;
+                    }
+                }
+
+                #borderLeft {
+                    border: 1px solid black;
+                    position: absolute;
+                    left: 0;
+
+                    bottom: 0;
+                    width: 50%;
+                }
+
+                .active {
+                    color: #3C4242;
+                }
+            }
+
+            .description {
+                font-size: 16px;
+                color: #807D7E;
+                margin-top: 30px;
+
+                .details {
+                    background-color: #F6F6F6;
+                    border-radius: 12px;
+                    margin-top: 30px;
+
+                    .row {
+                        display: grid;
+                        grid-template-columns: repeat(3, 1fr);
+                        align-items: center;
+                        justify-content: center;
+
+                        .cell {
+                            padding: 20px 30px;
+
+                            text-transform: capitalize;
+
+                            .name {
+                                color: #3C4242;
+                                font-weight: 600;
+                                margin-top: 10px;
+                            }
+                        }
+
+                        .mid {
+                            border: 1px solid #bebcbde1;
+                            border-top: none;
+                            border-bottom: none;
+                        }
+                    }
+
+                    .upper {
+                        border-bottom: 1px solid #bebcbde1;
+                    }
+                }
+            }
+        }
+
+        .right {
+            width: 530px;
+            height: 330px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            overflow: hidden;
+
+            video {
+                width: 550px;
+                height: 350px
+            }
+        }
+
+        iframe {
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+    }
+}
+
+@media (max-width:1000px) {
+    .content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+
+        .left {
+            width: 100% !important;
+        }
+
+        .right {
+            width: 550px !important;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+    }
+
+    .DetailOpening .right .purchases {
+        // margin: 0 auto;
+
+    }
+}

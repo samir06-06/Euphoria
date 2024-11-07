@@ -1,0 +1,71 @@
+.NewArrival {
+
+
+    .container {
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            width: fit-content !important;
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .swipercard {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+                gap: 20px;
+                cursor: pointer;
+
+                img {
+                    border-radius: 12px;
+                    object-fit: cover;
+                    object-position: top;
+                }
+
+                .name {
+                    color: #3C4242;
+                    text-transform: capitalize;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .swiper-pagination {
+            display: none !important;
+        }
+
+        .swiper-wrapper {
+            padding: 0 40px;
+        }
+
+        .swiper-button-prev::after {
+            content: url('../../assets/img/arrow.png');
+        }
+
+        .swiper-button-next::after {
+            content: url('../../assets/img/arrow (1).png');
+        }
+
+        .swiper-button-prev.swiper-button-disabled,
+        .swiper-button-next.swiper-button-disabled {
+            opacity: 1 !important
+        }
+    }
+}

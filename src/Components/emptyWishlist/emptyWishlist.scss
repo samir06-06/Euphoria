@@ -1,0 +1,41 @@
+@import "./../../assets/style/scss/mixin.scss";
+@import "./../../assets/style/scss/varibles.scss";
+
+.empty-wishlist {
+  @include df(center, center);
+  .inner-wrapper {
+    box-sizing: border-box;
+    max-width: 700px;
+    min-height: 600px;
+    border: 3px solid rgba(211, 211, 211, 0.781);
+    @include df(center, center);
+    flex-direction: column;
+    padding: 50px;
+
+    .heart-icon {
+      width: 250px;
+      height: 250px;
+      background-color: #f0f9f4;
+      border-radius: 50%;
+      @include df(center, center);
+      margin-bottom: 60px;
+    }
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      color: $primary-color;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .return-btn {
+      text-transform: capitalize;
+      color: white;
+      background-color: $main-color;
+      padding: 15px 60px;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

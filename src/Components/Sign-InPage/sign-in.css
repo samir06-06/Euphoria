@@ -1,0 +1,13 @@
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #adadad; 
+    /* line-height: 0.6em !important; */
+    padding-top: 40px;
+ } 
+ 
+ h2 span { 
+     padding:0 20px !important;  
+ }
+
+

@@ -1,0 +1,50 @@
+@import "./../../assets/style/scss/mixin.scss";
+@import "./../../assets/style/scss/varibles.scss";
+
+.address-card {
+  padding: 20px 40px;
+  background-color: #f6f6f6;
+  border-radius: 18px;
+  width: 100%;
+  .cardholder-name {
+    h2 {
+      border: none;
+      padding: 0px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 20px;
+      margin-bottom: 18px;
+      line-height: 25px;
+    }
+  }
+  .postal-code,
+  .address {
+    color: $primary-color;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .card-btns {
+    @include df(flex-start, center);
+    gap: 15px;
+    max-height: auto;
+    .address-remove-btn,
+    .address-edit-btn,
+    .detault-set-btn {
+      font-weight: 600;
+    }
+  }
+
+  .address-tags {
+    @include df(flex-start, center);
+    gap: 10px;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    .tag {
+      border: 1px solid $primary-color;
+      color: $primary-color;
+      padding: 5px 8px;
+      border-radius: 5px;
+    }
+  }
+}

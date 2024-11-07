@@ -1,0 +1,74 @@
+@media(min-width:767px) and (max-width:1024px) {
+    .buttons {
+        display: none !important;
+    }
+
+    .bars {
+        display: block !important;
+        font-size: 20px;
+        cursor: pointer;
+        font-size: 27px;
+    }
+
+    .logo img {
+       width: 100px;
+    }
+}
+
+.bars {
+    display: none;
+}
+/* for Button */
+.btn-login {
+    background: transparent;
+    color: #8A33FD;
+    border: 1px solid #cdcdcd;
+    font-weight: 400;
+}
+.btn-register {
+    background: #8A33FD;
+    color: white; 
+    border: 1px solid #cdcdcd;
+}
+
+.overlay-menu {
+    background: rgba(0, 0, 0, .7);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    width: 0;
+    overflow-x: hidden;
+    transition: all .6s ease-in-out;
+    z-index: 3;
+
+}
+.x-icon {
+    font-size: 50px;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.button-overlay {
+    font-size: 26px;
+    color: #ccc !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: transparent;
+}
+
+
+.search {
+    background-color: #f7f6f6;
+}
+.navbar {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}

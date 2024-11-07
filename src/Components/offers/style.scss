@@ -1,0 +1,30 @@
+.Offers {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 60px 0;
+        gap: 30px;
+
+        img {
+            cursor: pointer;
+            width: 40%;
+            height: 330px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 10px;
+
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .Offers .container {
+        padding: 40px 0;
+
+        img {
+            width: 45%;
+        }
+    }
+}

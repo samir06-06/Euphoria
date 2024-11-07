@@ -1,0 +1,72 @@
+@import "./../../assets/style/scss/mixin.scss";
+@import "./../../assets/style/scss/varibles.scss";
+
+.input-group {
+  width: 100%;
+  @include df(space-between, center);
+  gap: 40px;
+}
+.inp-inner-wrapper {
+  margin-bottom: 25px;
+  width: 50%;
+  .inp-label {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  .form-item-inp {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 10px;
+    color: $primary-color;
+    border-radius: 5px;
+    outline: $main-color;
+  }
+
+  .error {
+    color: red;
+  }
+}
+
+.deliveryInstruction-wrapper {
+  width: 100%;
+
+  .form-item-inp.deliveryInstruction {
+    min-height: 100px;
+  }
+}
+
+.checkbox-label {
+  margin-left: 10px;
+  font-size: 18px;
+}
+.btns {
+  @include df(flex-start, flex-start);
+  gap: 40px;
+  .save-btn,
+  .cansel-btn {
+    padding: 10px 35px;
+    background-color: $main-color;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  .cansel-btn {
+    background-color: #f6f6f6;
+    color: $primary-color;
+  }
+}
+
+@media (max-width: 1000px) {
+  .input-group {
+    flex-direction: column;
+    @include df(flex-start, flex-start);
+    gap: 0px;
+  }
+  .inp-inner-wrapper {
+    width: 100%;
+  }
+}

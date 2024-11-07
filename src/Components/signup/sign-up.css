@@ -1,0 +1,13 @@
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #adadad; 
+    line-height: 0.4em;
+    padding-top: 30px;
+ } 
+ 
+ h2 .or { 
+     padding:0 40px !important; 
+ }
+
+

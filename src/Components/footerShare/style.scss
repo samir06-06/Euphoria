@@ -1,0 +1,48 @@
+.sharing {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    .socials {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        .icon {
+            height: 40px;
+            width: 40px;
+            background-color: #F6F6F6;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .app {
+        font-size: 30px;
+        color: #F6F6F6;
+
+        .head {
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .stores {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .sharing {
+
+        .head {
+            font-size: 20px !important;
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.AdminAds {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .card {
+        width: 15vw;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        border: 1px solid #d8d8d8;
+        padding: 10px;
+        overflow: hidden;
+
+        img {
+            object-fit: cover;
+            width: 100%;
+            height: 200px;
+            border-radius: 12px;
+
+        }
+
+        button {
+            background-color: red;
+            border-radius: 5px;
+            padding: 5px 10px;
+            color: white;
+            text-transform: capitalize;
+        }
+    }
+
+    .add {
+        align-items: center;
+        justify-content: center;
+        height: 264px;
+
+        transition: 200ms linear;
+
+    }
+
+    .open {
+        cursor: pointer;
+
+        font-size: 25px;
+
+        svg {
+            color: gray;
+            margin: 0 auto;
+        }
+
+        &:hover {
+            color: white;
+            background-color: #8A33FD;
+
+            svg {
+                color: white;
+            }
+        }
+    }
+
+    .inputOffer {
+
+
+        button {
+            background-color: #8A33FD;
+        }
+
+        input {
+            // border-top-right-radius: 12px;
+            // border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+
+            padding: 0 10px;
+            height: 100%;
+            border: 1px solid #d8d8d8;
+        }
+    }
+
+    .heroInput {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 10px;
+
+        input {
+            border: 1px solid #d8d8d8;
+            border-radius: 5px;
+        }
+    }
+}

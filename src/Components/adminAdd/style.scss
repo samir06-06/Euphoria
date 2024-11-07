@@ -1,0 +1,85 @@
+.AdminAdd {
+    width: 80%;
+    padding: 20px;
+
+    .form {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .inputField {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            label {
+                text-transform: capitalize;
+                font-size: 20px;
+
+            }
+
+            input {
+                border: 1px solid #3C4242;
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+        }
+
+        .gender {
+            min-width: 200px;
+
+            .radios {
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                gap: 20px;
+
+                label {
+                    input {
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+
+        button {
+            border: 1px solid #8A33FD;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            gap: 15px;
+            text-transform: capitalize;
+            font-weight: 500;
+            transition: 200ms linear;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px 15px;
+            align-self: flex-end;
+
+            &:hover {
+                color: white;
+                background-color: #8A33FD;
+            }
+        }
+    }
+
+    .sizes {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 200px;
+
+        input {
+            margin-right: 5px;
+        }
+    }
+
+    label {
+        font-size: 20px;
+    }
+}

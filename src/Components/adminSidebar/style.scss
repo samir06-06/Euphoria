@@ -1,0 +1,44 @@
+.AdminSideBar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 25px;
+    padding: 50px 30px;
+    // background-color: #8A33FD;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 250px;
+    height: 100vh;
+    overflow: hidden;
+
+    img {
+        // filter: invert(100%) brightness(200%);
+        width: 80%;
+        cursor: pointer;
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 15px;
+        text-transform: capitalize;
+        font-weight: 500;
+        transition: 200ms linear;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px 15px;
+        width: 100%;
+
+        &:hover {
+            color: white;
+            background-color: #8A33FD;
+        }
+
+    }
+
+    .active {
+        color: white;
+        background-color: #8A33FD;
+    }
+}

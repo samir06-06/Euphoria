@@ -1,0 +1,10 @@
+5. use jwt token and axios interceptors to check
+6. connect sign flow
+11. fix sign up height
+15. sign takes whole screen
+18. filters come from server
+20. order confirmed should be a button not an image
+21. login inside users
+22. save order details in api order endpoint
+25. add user login buttons and flow
+26. checkbox color size

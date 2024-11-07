@@ -1,0 +1,44 @@
+.new {
+  color: #8a33fd;
+}
+
+#clothing {
+  width: 100%;
+  padding: 60px 60px;
+}
+
+#head {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+
+  h2 {
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+  }
+
+  .new-rec {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.cards {
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 66px;
+}
+
+@media (max-width: 768px) {
+  #clothing {
+    padding: 40px 40px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px 16px;
+  }
+}

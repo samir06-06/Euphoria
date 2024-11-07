@@ -1,0 +1,836 @@
+{
+  "products": [
+    {
+      "id": "5646",
+      "gender": "Women",
+      "brand": "XYZ",
+      "categories": [
+        "Tops",
+        "Plain T-shirts",
+        "Kurti"
+      ],
+      "price": 499,
+      "img": [
+        "https://www.stirlingsports.co.nz/productimages/magnify/1/105132_626019_99521.jpg",
+        "https://authenticseconds.com/image/data/yazlik%208%20subat/A_71.jpg"
+      ],
+      "name": "Classy Dressa",
+      "sizes": [
+        "XXS",
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL",
+        "4XL"
+      ],
+      "dress_style": "Classic",
+      "color": [
+        "red"
+      ],
+      "stock": 34,
+      "sale": 40,
+      "description": "Very nice and everyday wear, 100% cotton raised with eco products",
+      "video": "",
+      "rating": "5.0",
+      "fabric": "cotton",
+      "pattern": "fixed",
+      "fit": "slim fit",
+      "neck": "no neck",
+      "sleeve": "long",
+      "style": "casual",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5647",
+      "gender": "Women",
+      "brand": "ABC",
+      "categories": [
+        "Full sleeve T-shirts",
+        "Jeans"
+      ],
+      "price": 799,
+      "img": [
+        "https://cdn.dsmcdn.com/ty1262/product/media/images/prod/PIM/20240417/14/83b0e16d-b840-4f28-b033-7f5ec823393b/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1261/product/media/images/prod/PIM/20240417/14/00feb6f4-cc1a-4db5-9cc9-dcca8e31cb19/1_org_zoom.jpg",
+        "https://cdn.dsmcdn.com/ty1262/product/media/images/prod/PIM/20240417/14/a6228be3-5731-42c5-a81a-bcb9e8d1490b/1_org_zoom.jpg"
+      ],
+      "name": "Elegant Evening Gown",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dress_style": "Formal",
+      "color": [
+        "black"
+      ],
+      "stock": 25,
+      "sale": 20,
+      "description": "A stunning evening gown for special occasions, made with high-quality fabrics.",
+      "video": "",
+      "rating": "4.8",
+      "fabric": "silk",
+      "pattern": "embroidered",
+      "fit": "regular fit",
+      "neck": "v-neck",
+      "sleeve": "short",
+      "style": "elegant",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5648",
+      "gender": "Women",
+      "brand": "LMN",
+      "categories": [
+        "Jeans"
+      ],
+      "price": 599,
+      "img": [
+        "https://pyxis.nymag.com/v1/imgs/fac/416/15cff983709af0f8876b3d4382ccaedccd-framelehighskinnyjeans2.png",
+        "https://www.emiliebs.com/cdn/shop/products/433833_Mid_Rise_Crop_Super_1.jpg?v=1568055153"
+      ],
+      "name": "Slim Fit Jeans",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dress_style": "Casual",
+      "color": [
+        "black"
+      ],
+      "stock": 50,
+      "sale": 15,
+      "description": "Comfortable and stylish jeans for everyday wear, with a slim fit design.",
+      "video": "",
+      "rating": "4.5",
+      "fabric": "denim",
+      "pattern": "plain",
+      "fit": "slim fit",
+      "neck": "no neck",
+      "sleeve": "n/a",
+      "style": "casual",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5649",
+      "gender": "Women",
+      "brand": "PQR",
+      "categories": [
+        "Shoes",
+        "Sneakers"
+      ],
+      "price": 699,
+      "img": [
+        "https://assets.ajio.com/medias/sys_master/root/20230629/cWpv/649d0e34eebac147fc39db2e/-473Wx593H-466153252-white-MODEL.jpg",
+        "https://i.pinimg.com/474x/e3/84/fe/e384fe5d7543d8442c02107207416a7c.jpg"
+      ],
+      "name": "Sporty Sneakers",
+      "sizes": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "dress_style": "Sport",
+      "color": [
+        "white"
+      ],
+      "stock": 40,
+      "sale": 10,
+      "description": "Stylish and comfortable sneakers for active lifestyles, suitable for sports and casual wear.",
+      "video": "",
+      "rating": "4.7",
+      "fabric": "leather",
+      "pattern": "solid",
+      "fit": "regular fit",
+      "neck": "n/a",
+      "sleeve": "n/a",
+      "style": "sporty",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5650",
+      "gender": "Women",
+      "brand": "JKL",
+      "categories": [
+        "Bags"
+      ],
+      "price": 299,
+      "img": [
+        "https://labante.co.uk/cdn/shop/articles/ultimate-guide-to-womens-bags_2048x.jpg?v=1572446822",
+        "https://i.ebayimg.com/thumbs/images/g/y9UAAOSwTqhlrqCs/s-l640.jpg"
+      ],
+      "name": "Chic Tote Bag",
+      "sizes": [
+        "1"
+      ],
+      "dress_style": "Casual",
+      "color": [
+        "broom"
+      ],
+      "stock": 60,
+      "sale": 25,
+      "description": "A stylish tote bag for everyday use, perfect for carrying essentials with a touch of elegance.",
+      "video": "",
+      "rating": "4.9",
+      "fabric": "leather",
+      "pattern": "plain",
+      "fit": "regular fit",
+      "neck": "n/a",
+      "sleeve": "n/a",
+      "style": "chic",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5651",
+      "gender": "Women",
+      "brand": "RST",
+      "categories": [
+        "Shirts",
+        "Plain T-shirts"
+      ],
+      "price": 599,
+      "img": [
+        "https://cdn.shopify.com/s/files/1/0266/6276/4597/files/white_shirt_for_women.jpg?v=1656397243",
+        "https://assets.ajio.com/medias/sys_master/root/20220507/AXyX/6275efb0f997dd03e29b8c47/-473Wx593H-464248300-white-MODEL.jpg"
+      ],
+      "name": "Plaid Casual Shirt",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dress_style": "Casual",
+      "color": [
+        "red"
+      ],
+      "stock": 45,
+      "sale": 15,
+      "description": "A comfortable and stylish plaid shirt for casual outings or everyday wear.",
+      "video": "",
+      "rating": "4.6",
+      "fabric": "cotton",
+      "pattern": "plaid",
+      "fit": "regular fit",
+      "neck": "collar",
+      "sleeve": "long",
+      "style": "casual",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5652",
+      "gender": "Men",
+      "brand": "UVW",
+      "categories": [
+        "Jeans",
+        "Joggers"
+      ],
+      "price": 699,
+      "img": [
+        "https://assets.ajio.com/medias/sys_master/root/20230612/C1Lk/6487388942f9e729d73aac0b/-473Wx593H-469483073-blue-MODEL3.jpg",
+        "https://toddshelton.com/blog/wp-content/uploads/2021/02/2021_0213_jeans_businesscasual4.jpg"
+      ],
+      "name": "Slim Fit Chinos",
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "dress_style": "Formal (evening)",
+      "color": [
+        "navy"
+      ],
+      "stock": 30,
+      "sale": 10,
+      "description": "Stylish and comfortable chinos with a slim fit design, suitable for casual wear.",
+      "video": "",
+      "rating": "4.7",
+      "fabric": "cotton",
+      "pattern": "plain",
+      "fit": "slim fit",
+      "neck": "n/a",
+      "sleeve": "n/a",
+      "style": "casual",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5653",
+      "gender": "Men",
+      "brand": "XYZ",
+      "categories": [
+        "Tops",
+        "Jackets"
+      ],
+      "price": 1299,
+      "img": [
+        "https://www.politix.com.au/dw/image/v2/ABBA_PRD/on/demandware.static/-/Sites-politix-master-catalog/default/dw96b3c7b4/images/hires/Winter22/C2/Apparel/cc35-dk-green-1-min.jpg?sw=2500&sh=3000&sm=cut",
+        "https://www.countryroad.com.au/ProductImages_Display/MEDIUM/1/93844_443483_277814.jpg"
+      ],
+      "name": "Casual Denim Jacket",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "dress_style": "Casual",
+      "color": [
+        "blue"
+      ],
+      "stock": 20,
+      "sale": 0,
+      "description": "A classic denim jacket for a stylish and casual look, perfect for layering.",
+      "video": "",
+      "rating": "4.9",
+      "fabric": "denim",
+      "pattern": "plain",
+      "fit": "regular fit",
+      "neck": "n/a",
+      "sleeve": "long",
+      "style": "casual",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5654",
+      "gender": "Men",
+      "brand": "ABC",
+      "categories": [
+        "Shoes",
+        "Sneakers"
+      ],
+      "price": 899,
+      "img": [
+        "https://i5.walmartimages.com/seo/Sneakers-Men-Lace-Mesh-Soft-Fashion-Color-Bottom-Up-Sport-Shoes-Casual-Breathable-Solid-Men-s-Sneakers-Black-8-5_157c62e1-f1ec-49b4-9c1a-bd23b2d55f39.511b12f4c087c56ef4b96e7d56632b6d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+        "https://i.ebayimg.com/images/g/7NwAAOSw5E1jVogO/s-l400.jpg"
+      ],
+      "name": "Classic Leather Sneakers",
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "dress_style": "Classic",
+      "color": [
+        "grey"
+      ],
+      "stock": 35,
+      "sale": 5,
+      "description": "Timeless leather sneakers for a casual and stylish look, suitable for various occasions.",
+      "video": "",
+      "rating": "4.8",
+      "fabric": "leather",
+      "pattern": "plain",
+      "fit": "regular fit",
+      "neck": "n/a",
+      "sleeve": "n/a",
+      "style": "casual",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "5655",
+      "gender": "Men",
+      "brand": "DEF",
+      "categories": [
+        "Tops",
+        "Scarfs"
+      ],
+      "price": 99,
+      "img": [
+        "https://www.ovcio.com/cdn/shop/files/2_c9b7f508-44ba-4116-9137-87c89e0d767f_2000x.jpg?v=1697007329",
+        "https://assets.maisoncashmere.com/media/catalog/product/m/e/men-cashmere-rib-scarf-u105-new.jpg"
+      ],
+      "name": "Classic Scarf",
+      "sizes": [
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "dress_style": "Elegant",
+      "color": [
+        "black"
+      ],
+      "stock": 50,
+      "sale": 30,
+      "description": "A timeless leather belt to complement your casual or formal outfits with style.",
+      "video": "",
+      "rating": "4.7",
+      "fabric": "leather",
+      "pattern": "plain",
+      "fit": "regular fit",
+      "neck": "n/a",
+      "sleeve": "n/a",
+      "style": "classic",
+      "comment": [],
+      "question": []
+    },
+    {
+      "id": "e723",
+      "name": "Ferdinand Vargas",
+      "gender": "Aut vel sunt suscip",
+      "dress_style": "Obcaecati occaecat p",
+      "color": [
+        "Mollitia officia sin"
+      ],
+      "sale": -26,
+      "stock": "Sint et magni dicta ",
+      "description": "Quos earum ut quidem",
+      "video": "Magna corporis fugia",
+      "fabric": "Facere accusamus sun",
+      "pattern": "Ullam irure ut in no",
+      "fit": "Officiis Nam ullam n",
+      "neck": "Qui nisi id tempor l",
+      "sleeve": "Ut expedita iusto al",
+      "style": "Rerum dignissimos ex",
+      "sizes": [
+        "Facilis proident la"
+      ],
+      "price": 964,
+      "categories": [
+        "Placeat pariatur V"
+      ],
+      "brand": "Enim qui a dolore in",
+      "img": [
+        ""
+      ],
+      "image": "asdasd, as"
+    },
+    {
+      "id": "e925",
+      "name": "Brandon Nichols",
+      "gender": "Necessitatibus do nu",
+      "dress_style": "Iste officiis necess",
+      "color": [
+        "Asperiores assumenda"
+      ],
+      "sale": 21,
+      "stock": "Culpa nostrum volup",
+      "description": "Voluptatem excepteur",
+      "video": "Est eiusmod praesen",
+      "fabric": "Enim numquam laboris",
+      "pattern": "Non fuga In qui et ",
+      "fit": "Culpa nulla asperior",
+      "neck": "Blanditiis elit dui",
+      "sleeve": "Dignissimos ut tenet",
+      "style": "Voluptatem at aspern",
+      "sizes": [
+        "Doloribus rem nisi i"
+      ],
+      "price": 514,
+      "categories": [
+        "Non enim distinctio"
+      ],
+      "brand": "Dolore nihil consequ",
+      "img": [
+        ""
+      ],
+      "image": "Dolor quas eu ut cor"
+    },
+    {
+      "id": "e4c9",
+      "name": "Amery Baker",
+      "gender": "female",
+      "dress_style": "Rem obcaecati volupt",
+      "color": [
+        "Quia ipsum libero c"
+      ],
+      "sale": 3,
+      "stock": "Eius culpa reiciend",
+      "description": "Mollitia commodo mod",
+      "video": "Odio incididunt ex s",
+      "fabric": "In quidem voluptates",
+      "pattern": "Reprehenderit sit qu",
+      "fit": "Sed debitis earum re",
+      "neck": "Amet pariatur Volu",
+      "sleeve": "Minim et ad in nobis",
+      "style": "Minus sint aperiam s",
+      "sizes": [
+        "Culpa omnis aut volu"
+      ],
+      "price": 119,
+      "categories": [
+        "Dolore magnam impedi"
+      ],
+      "brand": "A voluptates unde vo",
+      "img": [
+        "Molestiae consequatu"
+      ]
+    },
+    {
+      "id": "4cc5",
+      "name": "Alec Colon",
+      "gender": "male",
+      "dress_style": "Excepteur aut eu dol",
+      "color": [
+        "Suscipit quibusdam e"
+      ],
+      "sale": 64,
+      "stock": "Dolore lorem error s",
+      "description": "Quia ea quae quia nu",
+      "video": "Quisquam nesciunt d",
+      "fabric": "Incidunt tempore e",
+      "pattern": "Dolores natus necess",
+      "fit": "Esse pariatur Enim ",
+      "neck": "Odio consectetur nob",
+      "sleeve": "Labore placeat saep",
+      "style": "Aliquid saepe labore",
+      "sizes": [
+        "Autem quas irure sit"
+      ],
+      "price": 876,
+      "categories": [
+        "Sit ut corrupti dol"
+      ],
+      "brand": "Natus perferendis su",
+      "img": [
+        "Velit est atque vol"
+      ]
+    },
+    {
+      "id": "4b17",
+      "name": "Isabelle Larsen",
+      "gender": "male",
+      "dress_style": "Delectus cupiditate",
+      "color": [
+        "Ipsum reprehenderit "
+      ],
+      "sale": 41,
+      "stock": "Quaerat consequuntur",
+      "description": "Quis sed proident m",
+      "video": "Asperiores consectet",
+      "fabric": "Deserunt velit sit ",
+      "pattern": "Unde sit quos quis ",
+      "fit": "Modi deserunt simili",
+      "neck": "Excepteur et maiores",
+      "sleeve": "Voluptatem quaerat i",
+      "style": "Voluptatem deleniti",
+      "price": 175,
+      "categories": [
+        "Repellendus Magna p"
+      ],
+      "brand": "Commodo consequuntur",
+      "img": [
+        "Nulla ex tenetur omn"
+      ],
+      "sizes": [
+        "xxs",
+        "xs",
+        "m",
+        "l"
+      ]
+    },
+    {
+      "id": "59e0",
+      "name": "Brian Whitehead",
+      "gender": "female",
+      "dress_style": "Molestiae veniam la",
+      "color": [
+        "Est et fugit laboru"
+      ],
+      "sale": 74,
+      "stock": "Aliquid officia temp",
+      "description": "Unde quo laudantium",
+      "video": "Repellendus Pariatu",
+      "fabric": "Ut quia pariatur Ei",
+      "pattern": "Perspiciatis facili",
+      "fit": "Omnis est ea libero",
+      "neck": "In veniam non archi",
+      "sleeve": "Veniam consectetur",
+      "style": "In doloremque maxime",
+      "sizes": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xxl"
+      ],
+      "price": 770,
+      "categories": [
+        "Cum fugiat accusanti"
+      ],
+      "brand": "Ut elit numquam ea ",
+      "img": [
+        "Itaque ullam nisi pa"
+      ]
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": "400",
+      "username": "John Doe",
+      "img": "https://t3.ftcdn.net/jpg/02/22/85/16/360_F_222851624_jfoMGbJxwRi5AWGdPgXKSABMnzCQo9RN.jpg",
+      "review": "Fantastic experience! The product exceeded my expectations in every way.",
+      "rating": 5
+    },
+    {
+      "id": "401",
+      "username": "Jane Smith",
+      "img": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "review": "Great service! The team was very helpful and responsive to my needs.",
+      "rating": 4
+    },
+    {
+      "id": "402",
+      "username": "Michael Johnson",
+      "img": "https://t3.ftcdn.net/jpg/02/17/44/98/360_F_217449874_RiBnrBbn3MI02ub8dUk6be2cKQzLSwkk.jpg",
+      "review": "Impressed with the quality of the product. It's definitely worth the price.",
+      "rating": 1
+    },
+    {
+      "id": "403",
+      "username": "Emily Brown",
+      "img": "https://www.shutterstock.com/image-photo/pretty-smiling-joyfully-female-fair-260nw-776697943.jpg",
+      "review": "Fast shipping and excellent packaging. The item arrived in perfect condition.",
+      "rating": 5
+    },
+    {
+      "id": "404",
+      "username": "David Wilson",
+      "img": "https://media.istockphoto.com/id/1180616266/photo/portrait-of-young-man-in-yellow-t-shirt-at-backyard.jpg?s=612x612&w=0&k=20&c=Ky8sOPItZUWuY704m3HoLbvzEFhecKBxsPCP71FCHw8=",
+      "review": "Satisfied with my purchase. The product works exactly as described.",
+      "rating": 2
+    },
+    {
+      "id": "405",
+      "username": "Sarah Martinez",
+      "img": "https://t4.ftcdn.net/jpg/03/30/25/97/360_F_330259751_tGPEAq5F5bjxkkliGrb97X2HhtXBDc9x.jpg",
+      "review": "Had a small issue initially, but the customer support team resolved it quickly. Very happy with the outcome.",
+      "rating": 4
+    }
+  ],
+  "address": [
+    {
+      "address_id": "3",
+      "user_id": "3",
+      "firstname": "Gigi",
+      "lastname": "Scott",
+      "country": "France",
+      "companyName": "Goodman and Noel LLC",
+      "street": "Modi laudantium Street",
+      "reseption": "office",
+      "city": "Paris",
+      "postalCode": "34354",
+      "phone": "0501233366",
+      "default_shipping": false,
+      "default_billing": false,
+      "id": "665a"
+    },
+    {
+      "address_id": "4",
+      "user_id": "4",
+      "firstname": "Kirestin",
+      "lastname": "Clay",
+      "country": "Turkay",
+      "companyName": "Alexander Huffman Traders",
+      "street": "Id nisi  Street",
+      "city": "Ankara",
+      "postalCode": "34354",
+      "phone": "0501233377",
+      "default_shipping": true,
+      "default_billing": true,
+      "id": "2c5d"
+    },
+    {
+      "id": "80b3",
+      "firstname": "Judy",
+      "lastname": "Wagner",
+      "country": "Quae quidem elit re",
+      "companyName": "Hardy and Kane Co",
+      "street": "Praesentium ullam vo",
+      "reseption": "Elit quis impedit ",
+      "city": "Necessitatibus offic",
+      "state": "Alias amet culpa hi",
+      "phone": "+1 (544) 497-9434",
+      "postalCode": "87656",
+      "deliveryInstruction": "Eum quos est est ad",
+      "default_shipping": true,
+      "default_billing": true,
+      "user_id": "1"
+    },
+    {
+      "id": "ef21",
+      "firstname": "Axel",
+      "lastname": "Sonner",
+      "country": "Niderland",
+      "companyName": "Bonner Alston Inc",
+      "street": "Ad aut molestias mag",
+      "reseption": "Voluptatem Reprehen",
+      "city": "In rerum in harum la",
+      "state": "Tempor sit laudantiu",
+      "phone": "+1 (149) 473-1539",
+      "postalCode": "98768",
+      "deliveryInstruction": "Hic rerum iure fuga",
+      "default_shipping": true,
+      "default_billing": true,
+      "user_id": "1"
+    },
+    {
+      "id": "579d",
+      "firstname": "Chastity",
+      "lastname": "Newman",
+      "country": "Dolor minima quia en",
+      "companyName": "Whitley Mcintyre Plc",
+      "street": "Voluptas dicta cum a",
+      "reseption": "Voluptates culpa de",
+      "city": "Ducimus ea illo exe",
+      "state": "Deserunt perferendis",
+      "phone": "+1 (429) 165-1743",
+      "postalCode": "87655",
+      "deliveryInstruction": "Voluptatibus qui rep",
+      "default_shipping": false,
+      "default_billing": true,
+      "user_id": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "aysun",
+      "email": "aysunhp@gmail.com",
+      "password": "Aysun2024.",
+      "phone": "0501232121",
+      "wishlist": [
+        "5646"
+      ],
+      "basket": []
+    },
+    {
+      "id": "2",
+      "name": "ismysmylv",
+      "email": "ismayil@gmail.com",
+      "password": "ismayil2004",
+      "phone": "0501234466",
+      "wishlist": [
+        "5651",
+        "5648"
+      ],
+      "basket": []
+    },
+    {
+      "id": "3",
+      "name": "ciciwau",
+      "email": "gigi@gmail.com",
+      "password": "gigi2004",
+      "wishlist": []
+    },
+    {
+      "id": "4",
+      "name": "someone",
+      "email": "me@gmail.com",
+      "password": "mmee2000",
+      "phone": "0510001234",
+      "wishlist": []
+    }
+  ],
+  "offers": [
+    {
+      "img": "https://img.freepik.com/premium-vector/summer-sale-banner-template_99493-1807.jpg",
+      "link": "",
+      "id": "757a"
+    },
+    {
+      "img": "https://img.freepik.com/premium-vector/summer-sale-banner-template_412608-1722.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696896000&semt=ais",
+      "link": "",
+      "id": "2545"
+    },
+    {
+      "id": "e1be",
+      "img": "https://t3.ftcdn.net/jpg/02/77/69/26/360_F_277692680_b65wdSQDuWZRrKwIUmGQo0zwND6n0MZR.jpg"
+    }
+  ],
+  "hero": [
+    {
+      "img": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2023_24/2003716/230613-summer-dress-refresh-vl-2x1.jpg",
+      "category": "t-shirts / tops",
+      "text": "summer value pack",
+      "properties": "cool / colorful / comfy",
+      "id": "720f"
+    },
+    {
+      "img": "https://www.familybritches.com/wp-content/uploads/2022/12/winter-clothes.jpg",
+      "category": "hoodies / jackets",
+      "text": "winter collection",
+      "properties": "warm / stylish / versatile",
+      "id": "793a"
+    },
+    {
+      "img": "https://www.apetogentleman.com/wp-content/uploads/2019/05/casual-dressing-tips1.jpg",
+      "category": [
+        "pants",
+        "jeans"
+      ],
+      "text": "casual denim collection",
+      "properties": [
+        "durable",
+        "trendy",
+        "comfortable"
+      ],
+      "id": "4128"
+    },
+    {
+      "id": "3a34",
+      "img": "https://www.switchbacktravel.com/sites/default/files/image_fields/Informational%20Articles/Best%20Outdoor%20Clothing%20Brands/Outdoor%20clothing%20brands%20%28Arc%27teryx%20Beta%20AR%20hardshell%29.jpg",
+      "category": "Voluptate / quia / nulla",
+      "text": "Labore omnis vero de",
+      "properties": "Sunt / dolore non / expe"
+    }
+  ],
+  "login": [
+    {
+      "id": " ",
+      "email": " ",
+      "password": " "
+    },
+    {
+      "id": "a3e1",
+      "img": "https://www.switchbacktravel.com/sites/default/files/image_fields/Informational%20Articles/Best%20Outdoor%20Clothing%20Brands/Outdoor%20clothing%20brands%20%28Arc%27teryx%20Beta%20AR%20hardshell%29.jpg",
+      "category": "Praesentium sed dolo",
+      "text": "Maiores in qui est e",
+      "properties": "Ut anim et obcaecati"
+    }
+  ],
+  "purchases": [
+    {
+      "0": {
+        "id": "5648",
+        "name": "Slim Fit Jeans",
+        "size": "M",
+        "color": "black",
+        "price": 599,
+        "img": "https://pyxis.nymag.com/v1/imgs/fac/416/15cff983709af0f8876b3d4382ccaedccd-framelehighskinnyjeans2.png"
+      },
+      "1": {
+        "id": "5649",
+        "name": "Sporty Sneakers",
+        "size": "5",
+        "color": "white",
+        "price": 699,
+        "img": "https://assets.ajio.com/medias/sys_master/root/20230629/cWpv/649d0e34eebac147fc39db2e/-473Wx593H-466153252-white-MODEL.jpg"
+      },
+      "id": "40fa"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+@import "./../../assets/style/scss/mixin.scss";
+@import "./../../assets/style/scss/varibles.scss";
+
+.form-element {
+  margin-bottom: 16px;
+
+  .inp-label {
+    text-transform: capitalize;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 600;
+    color: $primary-color;
+  }
+  .inner-wrapper {
+    @include df(space-between, center);
+    padding: 8px 0px 16px 0px;
+    border-bottom: 2px solid lightgray;
+    transition: border-color 0.2s ease; /* Smooth transition for color change */
+    &:focus-within {
+      border-bottom: 2px solid $main-color; /* Change to red on focus within */
+    }
+  }
+
+  .inp-pInfo {
+    background-color: transparent; /* Transparent background */
+    border: none; /* Default border color */
+    border-radius: 5px;
+    outline: none;
+    font-weight: 600;
+  }
+
+  .form-btn {
+    font-weight: 600;
+  }
+  .error {
+    color: red;
+  }
+}

@@ -1,0 +1,74 @@
+.AdHolder {
+    margin: 100px;
+    // height: 600px;
+
+    .ad {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+        overflow: hidden;
+
+        .left,
+        .right {
+            width: 50%;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 70px;
+            color: white;
+            flex-direction: column;
+
+            .head {
+                font-size: 35px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+
+            .text {
+                margin-top: 30px;
+                margin-bottom: 50px;
+                font-weight: lighter;
+                width: 80%;
+                font-size: 18px;
+            }
+
+            button {
+                padding: 12px 44px;
+                color: #3C4242;
+                border-radius: 5px;
+                background-color: white;
+                text-transform: capitalize;
+                font-weight: 700;
+                border: none;
+            }
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .AdHolder {
+        margin: 20px;
+        margin-top: 50px;
+    }
+
+    .AdHolder .ad .left,
+    .AdHolder .ad .right {
+        height: 500px;
+        padding: 20px;
+
+
+        .head {
+            font-size: 25px;
+        }
+
+        .text {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}

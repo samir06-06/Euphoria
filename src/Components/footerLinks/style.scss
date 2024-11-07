@@ -1,0 +1,28 @@
+.links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+
+    .linkCol {
+        color: #F6F6F6;
+        width: 100%;
+
+        .head {
+            font-size: 30px;
+            font-weight: 500;
+            margin-bottom: 25px;
+        }
+
+        .link {
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    .head {
+        font-size: 25px !important;
+    }
+}

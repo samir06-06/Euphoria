@@ -1,0 +1,28 @@
+.FooterPopular {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 32px 20px 70px;
+    margin-top: 30px;
+    border: 1px solid #BEBCBD;
+    border-left: none;
+    border-right: none;
+
+    .text {
+        font-size: 30px;
+        color: #F6F6F6;
+        font-weight: 600;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .FooterPopular {
+        .text {
+            font-size: 25px !important;
+        }
+
+        padding: 20px 30px 20px 20px
+    }
+
+}

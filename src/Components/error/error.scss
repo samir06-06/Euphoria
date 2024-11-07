@@ -1,0 +1,40 @@
+.error-content {
+  text-align: center;
+  max-width: 600px;
+  .content {
+    margin-bottom: 55px;
+    h1 {
+      margin-bottom: 10px;
+      font-size: 50px;
+    }
+    p {
+      color: #807d7e;
+      font-size: 20px;
+      line-height: 26px;
+      font-weight: normal;
+    }
+  }
+  .back-btn {
+    button {
+      padding: 15px 60px;
+      border-radius: 5px;
+      background-color: #8a33fd;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .error-content {
+    .content {
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+}
